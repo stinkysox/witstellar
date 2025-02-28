@@ -62,6 +62,13 @@ const Products = () => {
           />
         </div>
       </div>
+      <div className="bookmark-mockup">
+        <img
+          src="https://res.cloudinary.com/dyqfcf950/image/upload/v1740770007/qxxwapm2uhzgyh1lekwd.webp"
+          alt=""
+          className="bookmark-image"
+        />
+      </div>
     </div>
   );
 };
