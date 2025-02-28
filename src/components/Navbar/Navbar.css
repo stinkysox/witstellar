@@ -1,0 +1,61 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: black;
+  height: 100px; /* Fixed navbar height */
+  overflow: hidden;
+}
+
+/* Logo Section */
+.nav-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+}
+
+.nav-logo img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  transform: scale(2);
+  cursor: pointer;
+}
+
+/* Brand Name Section */
+.nav-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Matches navbar height */
+  width: 120px; /* Keeps width balanced */
+  overflow: hidden;
+}
+
+.nav-brand img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  transform: scale(2.6);
+  cursor: pointer;
+}
+
+/* Cart Section */
+.nav-cart {
+  font-size: 30px; /* Adjusted for visibility */
+  cursor: pointer;
+  color: white;
+  transition: transform 0.2s ease-in-out;
+}
+
+.nav-cart button {
+  background-color: transparent;
+  color: whitesmoke;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+}

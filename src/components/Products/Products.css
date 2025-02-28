@@ -1,0 +1,94 @@
+.products-container {
+  min-height: 100vh;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 50vh;
+  width: 100%;
+  background-color: lightcoral;
+
+  padding: 14px;
+}
+
+.product-image-container,
+.product-description-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 300px;
+  gap: 20px;
+}
+
+.product-description-container {
+  padding: 16px;
+  text-align: left;
+}
+
+.product-description-container h2 {
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+  font-family: "Doto", sans-serif;
+}
+
+.product-description-container p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: white;
+}
+
+.product-description-container button {
+  border: none;
+  background-color: black;
+  padding: 10px 30px;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.product-image {
+  height: 300px;
+  overflow: hidden;
+}
+
+.iphone-mockup {
+  text-align: center;
+}
+
+.iphone-mockup img {
+  height: 400px;
+}
+@media (max-width: 768px) {
+  .product {
+    flex-direction: column-reverse;
+    align-items: center;
+    height: auto;
+  }
+
+  .product-image-container,
+  .product-description-container {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .product-description-container h2 {
+    font-size: 20px;
+  }
+
+  .product-description-container p {
+    font-size: 14px;
+  }
+
+  .product-image {
+    height: 250px;
+  }
+}
